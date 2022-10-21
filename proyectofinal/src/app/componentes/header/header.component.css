@@ -1,0 +1,72 @@
+#mibanner{
+    background-color:rgb(14, 73, 136);
+    width:100%; 
+    height: 250px;
+    border-radius: 30px;
+   
+ }
+
+ #LOGOAP {
+    width: 80px;; 
+    height:50px;
+    float: left;
+    margin: 10px 10px;
+    border-radius: 10px 10px 10px
+   }
+
+   #mifoto {
+    width:100px; 
+    height: 150px;
+    display:center;
+    box-shadow: 10px 10px 7px  rgb(54, 5, 228);
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(51, 0, 255);
+    padding:auto;
+    border: 5px rgb(38, 78, 171);
+   }
+   .container{
+      background-color:rgb(14, 73, 136);
+      border-radius:30px;
+        }
+        .btn{
+         background-color:aqua;
+         padding:auto;
+         border-bottom: 50%;
+         margin: 10px;
+         border-radius:50px;
+         border: 5px inset rgb(38, 78, 171);
+         float: right;
+       }
+      
+      img{
+         width:40px; 
+         height: 40px;
+         float: right;
+         margin: 10px 10px 10px;
+         border-radius: 10px;
+          align-items: center;
+          flex-direction: column;
+          display:flex;
+          }
+   
+        div{
+         background-color: rgb(14, 73, 136)
+         
+      }
+   
+     /*Para vista celular*/
+     @media(max-width:575px){
+       .container{flex-direction: column;}
+
+
+       h4 {
+         color: blanchedalmond;
+         inline-size: 100%;
+         display: flex-block;
+         font-size: xx-large;
+         font-style: italic;
+         text-align: center;
+      }        
+     
+   }
